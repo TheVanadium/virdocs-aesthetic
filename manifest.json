@@ -1,0 +1,19 @@
+{
+
+    "manifest_version": 2,
+    "name": "Improve Virdoc Aesthetic",
+    "version": "0.1",
+  
+    "description": "Improves the aesthetic of Virdoc's interface for ease of use",
+
+    "content_scripts": [
+      {
+        "matches": ["https://*.virdocs.com/*"],
+        "css": ["virdocs_upgrades.css"],
+        "js": ["virdocs_upgrades.js"],
+        "run_at": "document_end"
+      }
+    ]
+  
+  }
+  
