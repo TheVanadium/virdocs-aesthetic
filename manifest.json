@@ -4,7 +4,7 @@
     "name": "Improve Virdoc Aesthetic",
     "version": "0.1",
   
-    "description": "Improves the aesthetic of Virdoc's interface for ease of use",
+    "description": "Improves the aesthetic of Virdoc's interface",
 
     "content_scripts": [
       {
